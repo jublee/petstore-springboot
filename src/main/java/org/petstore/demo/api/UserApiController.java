@@ -18,7 +18,7 @@ public class UserApiController implements UserApi{
     }
 
     @Override
-    public ResponseEntity<User> createUsersWithListInput(@Nullable List<@Valid User> user) {
+    public ResponseEntity<User> createUsersWithListInput(@Nullable List<User> user) {
         return null;
     }
 

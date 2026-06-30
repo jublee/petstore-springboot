@@ -1,6 +1,9 @@
 spring:
   application:
     name: petstore-springboot
+  graphql:
+    graphiql:
+      enabled: true
   http:
     clients:
       connect-timeout: 2s
