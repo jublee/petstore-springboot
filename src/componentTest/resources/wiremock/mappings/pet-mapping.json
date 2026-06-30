@@ -1,0 +1,30 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/v1/pets/1"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "id": 1,
+      "name": "foster",
+      "category": {
+        "id": "1",
+        "name": "dog"
+      },
+      "status": "available",
+      "photoUrls": [
+        "https://dogs.com/1"
+      ],
+      "tags": [
+        {
+          "id": "11",
+          "name": "council"
+        }
+      ]
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
