@@ -63,7 +63,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     // Required dependencies for OpenAPI generated code annotations
-    implementation 'io.swagger.core.v3:swagger-annotations:2.2.22'
+    implementation 'io.swagger.core.v3:swagger-annotations:2.2.52'
     implementation 'org.openapitools:jackson-databind-nullable:0.2.6'
 }
 
