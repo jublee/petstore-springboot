@@ -88,8 +88,8 @@ testing {
             dependencies {
                 implementation project()
                 implementation 'org.springframework.boot:spring-boot-starter-test'
-                implementation 'org.spockframework:spock-core:2.4-groovy-5.0'
-                implementation 'org.spockframework:spock-spring:2.4-groovy-5.0'
+                implementation 'org.spockframework:spock-core:2.5-groovy-6.0'
+                implementation 'org.spockframework:spock-spring:2.5-groovy-6.0'
                 implementation 'org.springframework.boot:spring-boot-starter-graphql-test'
                 /*implementation 'org.springframework.boot:spring-boot-starter-restclient-test'
                 implementation 'org.springframework.boot:spring-boot-starter-webclient-test'
